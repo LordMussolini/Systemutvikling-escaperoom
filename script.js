@@ -4,36 +4,29 @@ const btnSjekkKode = document.querySelector('#btnSjekkKode');
 
 const svar = [
     {
-        svaret: høy,
-        sideId: 0,
+        svaret: "høy",
     }, 
     {
-        svaret: høy,
-        sideId: 1,
+        svaret: "høy",
     },
     {
-        svaret: høy,
-        sideId: 2,
+        svaret: "høy",
     }, 
     {
-        svaret: høy,
-        sideId: 3,
+        svaret: "høy",
     },
     {
-        svaret: høy,
-        sideId: 4,
+        svaret: "høy",
     }, 
     {
-        svaret: høy,
-        sideId: 5,
+        svaret: "høy",
     },
 ]
-
 
 const sjekkKode = () => {
     if(inpSvar.toLowerCase() == svar[sideId].svaret){
         svarDiv.innerHTML = ``;
-        svar[sideID].sideId = svar[sideID].sideId + 1;
+        sideId = sideId + 1;
 
     } else {
         svarDiv.innerHTML = ``;
