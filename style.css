@@ -31,6 +31,8 @@ body{
     padding: 20px;
     color: rgb(139, 155, 155);
     font-size: 1.5rem;
+    text-decoration: none;
+    border: solid 1px rgb(139, 155, 155);
 }
 
 #btnIndex:hover{
