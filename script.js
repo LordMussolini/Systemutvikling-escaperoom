@@ -37,9 +37,10 @@ const sjekkKode = () => {
         svarDiv.innerHTML = ``;
         sideId = sideId + 1;
         index = index + 1 + ".html";
-        videreDiv.innerHTML = `<a id="linkVidere" herf=${index}>Gå videre til neste rom.<a>`;
+        videreDiv.innerHTML = `<a id="linkVidere" herf=${index}>Du greide det! Gå videre til neste rom ved å trykke her.<a>`;
     } else {
-        svarDiv.innerHTML = ``;
+        svarDiv.innerHTML = `${svar[sideId].svarTekst}`;
+        videreDiv.innerHTML = `<a id="linkVidere" herf=${index}>Du greide det dessverre ikke, men trykk her for å prøve på nytt.<a>`;
     }
 }
 
