@@ -31,9 +31,9 @@ const svar = [
 
 
 const sjekkKode = () => {
-    if(inpSvar.toLowerCase() == svaret){
+    if(inpSvar.toLowerCase() == svar[sideId].svaret){
         svarDiv.innerHTML = ``;
-        sideID++;
+        svar[sideID].sideId = svar[sideID].sideId + 1;
 
     } else {
         svarDiv.innerHTML = ``;
