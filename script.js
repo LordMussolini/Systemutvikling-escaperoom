@@ -30,7 +30,17 @@ const svar = [
     },
 ]
 
-let sideId = 0;
+const url = new URL(window.location.href);
+console.log(url);
+const idTilSide = url.searchParams.get("id");
+let sideId;
+if (!idTilSide){
+    sideId = 0;
+} else {
+    sideId = Number(idTilSide);
+}
+console.log(sideId);
+//let sideId = 0;
 let index = sideId + ".html";
 
 const sjekkKode = () => {
@@ -44,11 +54,11 @@ const sjekkKode = () => {
             svarDiv.innerHTML = `${svar[sideId].svarTekst}`;
             sideId = sideId + 1;
             index = sideId + ".html";
-            videreDiv.innerHTML = `<a class="linkVidere" href=${index}>Du greide det! Gå videre til neste rom ved å trykke her.<a>`;
+            videreDiv.innerHTML = `<a class="linkVidere" href='${index}?id=${sideId}'>Du greide det! Gå videre til neste rom ved å trykke her.<a>`;
         }
     } else {
         svarDiv.innerHTML = `${svar[sideId].svarTekst}`;
-        videreDiv.innerHTML = `<a class="linkVidere" href=${index}>Du greide det dessverre ikke, men trykk her for å prøve på nytt.<a>`;
+        videreDiv.innerHTML = `<a class="linkVidere" href='${index}?id=${sideId}'>Du greide det dessverre ikke, men trykk her for å prøve på nytt.<a>`;
     }
 }
 
