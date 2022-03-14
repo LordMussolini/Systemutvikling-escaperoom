@@ -1,0 +1,14 @@
+#o1introGrid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 80%;
+    margin: auto;
+}
+#o1introGrid img{
+    height: 500px;
+}
+#o1introGrid p{
+    padding-left: 10px;
+    padding-right: 20px;
+    font-size: 1.5rem;
+}
