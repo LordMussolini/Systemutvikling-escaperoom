@@ -1,0 +1,28 @@
+#o2introGrid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 80%;
+    margin: auto;
+}
+#o2introGrid img{
+    height: 500px;
+}
+#o2introGrid p{
+    padding-left: 10px;
+    padding-right: 20px;
+    font-size: 1.5rem;
+}
+
+#bokstavene{
+    width: 80%;
+    margin: auto;
+}
+#bokstavene h4{
+    margin-top: 50px;
+}
+
+#o2b2img{
+    width: 500px;
+    margin: auto;
+    display: block;
+}

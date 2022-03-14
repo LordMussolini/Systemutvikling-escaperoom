@@ -31,8 +31,7 @@ const svar = [
 ]
 
 let sideId = 0;
-let index = 0 + ".html";
-let ordet = svar[sideId].svaret;
+let index = sideId + ".html";
 
 const sjekkKode = () => {
     if(inpSvar.value.toLowerCase() == svar[sideId].svaret){

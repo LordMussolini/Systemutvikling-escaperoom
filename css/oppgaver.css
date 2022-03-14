@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+header{
+    height: 15vh;
+    text-align: center;
+}
+.strek{
+    height: 2px;
+    background-color: black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
