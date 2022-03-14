@@ -34,10 +34,17 @@ const svar = [
 
 const sjekkKode = () => {
     if(inpSvar.toLowerCase() == svar[sideId].svaret){
-        svarDiv.innerHTML = ``;
-        sideId = sideId + 1;
-        index = index + 1 + ".html";
-        videreDiv.innerHTML = `<a id="linkVidere" herf=${index}>Du greide det! Gå videre til neste rom ved å trykke her.<a>`;
+        if(sideId >= 5){
+            svarDiv.innerHTML = `${svar[sideId].svarTekst}`;
+            sideId = 0;
+            index = 0 + ".html";
+            videreDiv.innerHTML = `<a id="linkVidere" herf="index.html">Du fullførte escaperoomet! Gå videre til hovedsiden ved å trykke her.<a>`;
+        }else{
+            svarDiv.innerHTML = `${svar[sideId].svarTekst}`;
+            sideId = sideId + 1;
+            index = index + 1 + ".html";
+            videreDiv.innerHTML = `<a id="linkVidere" herf=${index}>Du greide det! Gå videre til neste rom ved å trykke her.<a>`;
+        }
     } else {
         svarDiv.innerHTML = `${svar[sideId].svarTekst}`;
         videreDiv.innerHTML = `<a id="linkVidere" herf=${index}>Du greide det dessverre ikke, men trykk her for å prøve på nytt.<a>`;
