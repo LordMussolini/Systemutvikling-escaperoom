@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+#header{
+    position: absolute;
+    top: 10px;
+    left: 34%;
+}
+#header h1{
+    color: rgb(139, 155, 155);
+    font-size: 4rem;
+}
+#bakgrunn{
+    background-image: url(../bilder/forside-bakgrunn.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+#bakgrunn img{
+    width: 100%;
+}
+
+#btnIndex{
+    position: absolute;
+    top: 85%;
+    left: 38%;
+
+    background-color: transparent;
+    padding: 20px;
+    color: rgb(139, 155, 155);
+    font-size: 1.5rem;
+    text-decoration: none;
+    border: solid 1px rgb(139, 155, 155);
+}
+
+#btnIndex:hover{
+    background-color: rgb(139, 155, 155);
+    color: black;
+}
+#btnIndex:active{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
