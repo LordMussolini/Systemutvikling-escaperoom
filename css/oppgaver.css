@@ -18,8 +18,24 @@ header{
     padding-top: 20px;
     height: 100px;
 }
+.DivMedSvar button{
+    background-color: transparent;
+    color: black;
+    border: solid 1px rgb(139, 155, 155);
+    font-family: 'Raleway', sans-serif;
+}
+.DivMedSvar button:hover{
+    background-color: rgb(139, 155, 155);
+    color: white;
+}
+.DivMedSvar input{
+    background-color: transparent;
+    color: black;
+    border: solid 1px rgb(139, 155, 155);
+    font-family: 'Raleway', sans-serif;
+}
 #flexNed{
     display: flex;
     flex-direction: column;
-
+    text-align: center;
 }
