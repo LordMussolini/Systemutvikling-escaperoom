@@ -12,3 +12,14 @@ header{
     margin-top: 50px;
     margin-bottom: 50px;
 }
+.DivMedSvar{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 20px;
+    height: 100px;
+}
+#flexNed{
+    display: flex;
+    flex-direction: column;
+
+}
