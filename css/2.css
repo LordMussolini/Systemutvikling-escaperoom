@@ -1,8 +1,59 @@
+#o3introGrid{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    width: 80%;
+    margin: auto;
+}
+#o3introGrid img{
+    height: 300px;
+}
+#o3introGrid p{
+    padding-left: 10px;
+    padding-right: 20px;
+    font-size: 1.3rem;
+}
+
+#bokstavene{
+    width: 80%;
+    margin: auto;
+}
+#o3stykke{
+    display: block;
+    margin: auto;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#o3tabellGrid{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    width: 95%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#o3bilde1{
+    height: 400px;
+}
+#o3bilde2{
+    margin-top: 3px;
+    height: 396px;
+
+}
+
+
 #grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 20px;
 }
-#div{
+.div{
 background-color: yellow;
+display: grid;
+grid-template-rows: 3fr 1fr;
+}
+.o3inputGrid{
+    display: grid;
+    grid-template-columns: 1fr, 1fr;
 }
