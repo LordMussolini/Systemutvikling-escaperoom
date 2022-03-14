@@ -53,7 +53,17 @@ background-color: yellow;
 display: grid;
 grid-template-rows: 3fr 1fr;
 }
+.div img{
+    display: block;
+    margin: auto;
+}
 .o3inputGrid{
     display: grid;
-    grid-template-columns: 1fr, 1fr;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+}
+.o3inputGrid input{
+    width: 40px;
+    margin-left: 20px;
+    margin-bottom: 20px;
 }
