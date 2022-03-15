@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            background-image: url(./bilder/pyramide.jpeg);
+            background-size: cover;
+        }
+        h1{
+            padding-top: 45vh;
+            text-align: center;
+            font-family: 'Raleway', sans-serif;
+            color: white;
+        }
+        .knappFlex{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+        }
+        #faaPremie{
+            font-family: 'Raleway', sans-serif;
+        }
+        .styleMe{
+            border: 1px solid rgb(255, 255, 255);
+            background-color: transparent;
+            color: rgb(255, 255, 255);
+            padding: 10px;
+            margin: 20px;
+        }
+        .styleMe:hover{
+            color: rgb(139, 155, 155);
+            background-color: white;
+        }
+        video{
+            width: 996px;
+        }
+    </style>
+</head>
+<body>
+    <div id="innhold">
+        <h1>
+            Gratulerer! Du har kommet deg gjennom escaperoomet! Klikk på knappen for å motta din pris!
+        </h1>
+        <div class="knappFlex">
+            <button class="styleMe" id="faaPremie">Motta premie!</button>
+        </div>
+    </div>
+    <!--<div class="tenor-gif-embed" data-postid="4304204" data-share-method="host" data-aspect-ratio="1.77778" data-width="100%"><a href="https://tenor.com/view/minions-squished-pyramid-slap-gif-4304204">Minions Pyramid GIF</a>from <a href="https://tenor.com/search/minions-gifs">Minions GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>-->
+    <script>
+        const innhold = document.querySelector('#innhold');
+        const faaPremie = document.querySelector('#faaPremie');
+        const spillVideo = document.querySelector('#spillVideo');
+
+        faaPremie.onclick = () => {
+            innhold.innerHTML = `
+            <div class="knappFlex">
+                <video id="spillVideo" src="https://tenor.com/sdSO.gif"></video>
+                <a href="index.html" class="styleMe" id="Hjemmeside">Jeg har fått nok, ta meg tilbake til hovedsiden.</a>
+            </div>
+            `;
+            spillVideo.play();
+        }
+    </script>
+</body>
+</html>
