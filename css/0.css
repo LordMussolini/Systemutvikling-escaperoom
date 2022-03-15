@@ -34,27 +34,35 @@
     font-size: 2rem;
     text-transform: uppercase;
 }
-.o1Tall{
-    margin-left: 10px;
+.o1Tall p{
+  text-align: center;  
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 .o1Celle{
     display: grid;
     grid-template-columns: 1fr;
 }
 .o1Celle div{
-    border: blue 1px solid;
+    border: grey 1px solid;
 }
 #o1IndreRamme1{
     display: grid;
     grid-template-columns: repeat(9, 1fr);
+    border: grey 2px solid;
+
 }
 #o1IndreRamme2{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    border: grey 2px solid;
+
 }
 #o1IndreRamme3{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    border: grey 2px solid;
+
 }
 #o1TallOgBokstavRamme{
     display: flex;
