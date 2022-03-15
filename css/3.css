@@ -17,3 +17,7 @@
     width: 80%;
     margin: auto;
 }
+#kryssord{
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+}
