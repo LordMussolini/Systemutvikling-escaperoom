@@ -1,0 +1,22 @@
+#o6introGrid{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    width: 80%;
+    margin: auto;
+}
+#o6introGrid img{
+    height: 230px;
+}
+#o6introGrid p{
+    padding-left: 10px;
+    padding-right: 20px;
+    font-size: 1.3rem;
+}
+
+#bokstavene{
+    width: 80%;
+    margin: auto;
+}
+.o6Space{
+    height: 40px;
+}

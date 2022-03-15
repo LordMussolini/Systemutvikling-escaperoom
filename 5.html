@@ -4,32 +4,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+    <title>Oppgave 6</title>
+    <link rel="stylesheet" href="./css/oppgaver.css">
+    <link rel="stylesheet" href="./css/5.css">
 </head>
 <body>
-    <h1>Oppgave 6 - Mørkt som i graven </h1>
-    <p>Hovedlyset blinket igjen. Så ble det helt mørk. Mørkt som i graven. Flere hylte høyt i gravkammeret og ekkoet gjallet gjennom steingangene. Etter noen sekunder i totalt mørke ble nødaggregatet startet og en og annen lampe lyste opp. Du kan trygt si at det la en demper på stemningen som ikke var på topp fra før.  Graven var brutt opp for lenge siden og verdisakene var for lengst forsvunnet. Bare en uhyggelig stemning var igjen.  En port med kodelås sperret for en passasje som gikk videre innover i pyramiden.
-        En modell av pyramiden stod utstilt på en steinhylle. På modellen var det skrevet noen faktaopplysninger om pyramidens mål da den stod ferdig. Kheopspyramiden var 146 meter høy og grunnflaten er kvadratisk med sidelengde på 230 meter.</p>
-    <img src="bilder/oppgave6-1.jpg" alt="">
-    <h3>FINN KODEORDET</h3>
+    <header>
+        <h1>Oppgave 6 - Mørkt som i graven </h1>
+    </header>
 
-    <h4>OPPGAVE 1</h4>
-    <p>Inne i pyramiden er det en modell av pyramiden i målestokken 1:500.  Volumet til selve Kheopspyramiden er omtrent 2 574 500 m³. Hva er volumet til modellen i cm³?</p>
-    <p>Velg bokstaven som har riktig svaralternativ:</p>
-    <img src="bilder/oppgave6-2.jpg" alt="">
-    <h4>OPPGAVE 2</h4>
-    <p>Hvis du skal gå fra det ene hjørnet opp til toppen av Kheopspyramiden, omtrent hvor langt er det i luftlinje?</p>
-    <p>Velg bokstaven som har riktig svaralternativ:</p>
-    <img src="bilder/oppgave6-3.jpg" alt="">
-    <div class="DivMedSvar">
-        <div>
-            Hva er koden?
-            <input type="text" id="inpSvar">
-            <button id="btnSjekkKode">Sjekk svaret</button>
-        </div>
-        <div id="flexNed">
-            <div id="svarDiv"></div>
-            <div id="videreDiv"></div>
+    <div id="o6introGrid">
+        <p>Hovedlyset blinket igjen. Så ble det helt mørk. Mørkt som i graven. Flere hylte høyt i gravkammeret og ekkoet gjallet gjennom steingangene. Etter noen sekunder i totalt mørke ble nødaggregatet startet og en og annen lampe lyste opp. Du kan trygt si at det la en demper på stemningen som ikke var på topp fra før.  Graven var brutt opp for lenge siden og verdisakene var for lengst forsvunnet. Bare en uhyggelig stemning var igjen.  En port med kodelås sperret for en passasje som gikk videre innover i pyramiden.
+            En modell av pyramiden stod utstilt på en steinhylle. På modellen var det skrevet noen faktaopplysninger om pyramidens mål da den stod ferdig. Kheopspyramiden var 146 meter høy og grunnflaten er kvadratisk med sidelengde på 230 meter.</p>
+        <img src="bilder/oppgave6-1.jpg" alt="">
+    </div>
+
+    <div class="strek"></div>
+    
+    <div id="bokstavene">
+        <h3>FINN KODEORDET</h3>
+        
+        <h4>OPPGAVE 1</h4>
+        <p>Inne i pyramiden er det en modell av pyramiden i målestokken 1:500.  Volumet til selve Kheopspyramiden er omtrent 2 574 500 m³. Hva er volumet til modellen i cm³?</p>
+        <p>Velg bokstaven som har riktig svaralternativ:</p>
+        <img src="bilder/oppgave6-2.jpg" alt="">
+
+        <div class="o6Space"></div>
+
+        <h4>OPPGAVE 2</h4>
+        <p>Hvis du skal gå fra det ene hjørnet opp til toppen av Kheopspyramiden, omtrent hvor langt er det i luftlinje?</p>
+        <p>Velg bokstaven som har riktig svaralternativ:</p>
+        <img src="bilder/oppgave6-3.jpg" alt="">
+
+        <div class="o6Space"></div>
+
+
+        <div class="DivMedSvar">
+            <div>
+                Hva er koden?
+                <input type="text" id="inpSvar">
+                <button id="btnSjekkKode">Sjekk svaret</button>
+            </div>
+            <div id="flexNed">
+                <div id="svarDiv"></div>
+                <div id="videreDiv"></div>
+            </div>
         </div>
     </div>
     <script src="script.js"></script>
