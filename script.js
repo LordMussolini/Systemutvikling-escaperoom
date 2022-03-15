@@ -56,15 +56,18 @@ const sjekkKode = () => {
             sideId = 0;
             index = 0 + ".html";
             videreDiv.innerHTML = `<a class="linkVidere" href="index.html">Du fullførte escaperoomet! Gå videre til hovedsiden ved å trykke her.<a>`;
+            videreDiv.style.backgroundColor = "rgb(111, 179, 111)";
         }else{
             svarDiv.innerHTML = `${svar[sideId].svarTekst}`;
             sideId = sideId + 1;
             index = sideId + ".html";
             videreDiv.innerHTML = `<a class="linkVidere" href='${index}?id=${sideId}'>Du greide det! Gå videre til neste rom ved å trykke her.<a>`;
+            videreDiv.style.backgroundColor = "rgb(111, 179, 111)";
         }
     } else {
         svarDiv.innerHTML = `${svar[sideId].svarTekstFeil}`;
         videreDiv.innerHTML = `<a class="linkVidere" href='${index}?id=${sideId}'>Du greide det dessverre ikke, men trykk her for å prøve på nytt.<a>`;
+        videreDiv.style.backgroundColor = "rgb(197, 73, 73)";
     }
 }
 
