@@ -12,8 +12,53 @@
     padding-right: 20px;
     font-size: 1.5rem;
 }
-
 #bokstavene{
     width: 80%;
+    margin: auto;
+}
+#o1bilde{
+    margin: auto;
+    display: block;
+    margin-bottom: 50px;
+}
+
+
+
+
+.o1Bokstav{
+    width: 30px;
+    height: 40px;
+    border-radius: 0;
+    border: solid 1px black;
+    margin: 10px;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+.o1Tall{
+    margin-left: 10px;
+}
+.o1Celle{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.o1Celle div{
+    border: blue 1px solid;
+}
+#o1IndreRamme1{
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+}
+#o1IndreRamme2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+#o1IndreRamme3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+#o1TallOgBokstavRamme{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
     margin: auto;
 }
