@@ -4,35 +4,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+    <title>Oppgave 5</title>
+    <link rel="stylesheet" href="./css/oppgaver.css">
+    <link rel="stylesheet" href="./css/4.css">
 </head>
 <body>
-    <h1>Oppgave 5 - En faretruende familiekrypt</h1>
-    <p>I familiekrypten fantes et «familiebilde» i form av skulpturer. Her fantes skulpturer av faraoen Kufu, hans to koner Merititen og Henutsen og  kronprinsen Kawab. Lyskasterne som lyste opp de digre statuene blinket faretruende.
-        Stemningen blant gruppen ble mer lavmælt og dempet. Det skyldtes nok at de faktisk befant seg i en grav og dermed følte på respekten de burde utvise, samtidig som situasjonens alvor hadde begynt å synke inn hos forsamlingen.</p>
-    <img src="bilder/oppgave5-1.jpg" alt="">
-    <img src="" alt="">
-    <h3>FINN KODEORDET</h3>
-    <p>Løs likningsettet</p>
-    <img src="bilder/oppgave5-2.svg" alt="">
-    <img src="bilder/oppgave5-3.svg" alt="">
-    <img src="bilder/oppgave5-4.png" alt="">
-    <ol>
-        <li>Finn bokstaven på punktet som koordinatene angir</li>
-        <li>Flytt til den nye koordinaten (x-5, y+1) og finn bokstaven.</li>
-        <li>Speil punktet om x-aksen og finn bokstaven</li>
-        <li>Speil punktet om origo og finn bokstaven</li>
-        <li>Sett sammen bokstavene til et adjektiv</li>
-    </ol>
-    <div class="DivMedSvar">
-        <div>
-            Hva er koden?
-            <input type="text" id="inpSvar">
-            <button id="btnSjekkKode">Sjekk svaret</button>
+    <header>
+        <h1>Oppgave 5 - En faretruende familiekrypt</h1>
+    </header>
+
+    <div id="o5introGrid">
+        <p>I familiekrypten fantes et «familiebilde» i form av skulpturer. Her fantes skulpturer av faraoen Kufu, hans to koner Merititen og Henutsen og  kronprinsen Kawab. Lyskasterne som lyste opp de digre statuene blinket faretruende.
+            Stemningen blant gruppen ble mer lavmælt og dempet. Det skyldtes nok at de faktisk befant seg i en grav og dermed følte på respekten de burde utvise, samtidig som situasjonens alvor hadde begynt å synke inn hos forsamlingen.</p>
+        <img src="bilder/oppgave5-1.jpg" alt="">
+    </div>
+
+    <div class="strek"></div>
+    
+    <div id="bokstavene">
+        <h3>FINN KODEORDET</h3>
+
+        <p>Løs likningsettet:</p>
+        <div id="o5YtreGrid">
+            <div id="o5indreGrid">
+                <img src="bilder/oppgave5-2.svg" alt="">
+                <img src="bilder/oppgave5-3.svg" alt="">
+            </div>
+            <img src="bilder/oppgave5-4.png" alt="">
         </div>
-        <div id="flexNed">
-            <div id="svarDiv"></div>
-            <div id="videreDiv"></div>
+        <ol>
+            <li>Finn bokstaven på punktet som koordinatene angir</li>
+            <li>Flytt til den nye koordinaten (x-5, y+1) og finn bokstaven.</li>
+            <li>Speil punktet om x-aksen og finn bokstaven</li>
+            <li>Speil punktet om origo og finn bokstaven</li>
+            <li>Sett sammen bokstavene til et adjektiv</li>
+        </ol>
+
+
+
+        <div class="DivMedSvar">
+            <div>
+                Hva er koden?
+                <input type="text" id="inpSvar">
+                <button id="btnSjekkKode">Sjekk svaret</button>
+            </div>
+            <div id="flexNed">
+                <div id="svarDiv"></div>
+                <div id="videreDiv"></div>
+            </div>
         </div>
     </div>
     <script src="script.js"></script>

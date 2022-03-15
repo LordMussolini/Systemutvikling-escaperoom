@@ -17,6 +17,7 @@ header{
     grid-template-columns: repeat(2, 1fr);
     padding-top: 20px;
     height: 100px;
+    margin-bottom: 40px;
 }
 .DivMedSvar button{
     background-color: transparent;

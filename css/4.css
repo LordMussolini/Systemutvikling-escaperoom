@@ -1,0 +1,37 @@
+#o5introGrid{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    width: 80%;
+    margin: auto;
+}
+#o5introGrid img{
+    height: 300px;
+}
+#o5introGrid p{
+    padding-left: 10px;
+    padding-right: 20px;
+    font-size: 1.3rem;
+}
+
+#bokstavene{
+    width: 80%;
+    margin: auto;
+}
+
+#o5YtreGrid{
+    display: grid;
+    grid-template-rows: 1fr 7fr;
+}
+#o5YtreGrid img{
+    width: 80%;
+    margin: auto;
+}
+#o5indreGrid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 80%;
+    margin: auto;
+}
+#o5indreGrid img{
+    width: 200px;
+}
