@@ -55,7 +55,7 @@ const sjekkKode = () => {
             svarDiv.innerHTML = `${svar[sideId].svarTekst}`;
             sideId = 0;
             index = 0 + ".html";
-            videreDiv.innerHTML = `<a class="linkVidere" href="index.html">Du fullførte escaperoomet! Gå videre til hovedsiden ved å trykke her.<a>`;
+            videreDiv.innerHTML = `<a class="linkVidere" href="vunnet.html">Du fullførte escaperoomet! Gå videre til premiesiden ved å trykke her.<a>`;
             videreDiv.style.backgroundColor = "rgb(111, 179, 111)";
         }else{
             svarDiv.innerHTML = `${svar[sideId].svarTekst}`;

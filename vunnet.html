@@ -23,7 +23,6 @@
         .knappFlex{
             display: flex;
             justify-content: center;
-            flex-direction: column;
             text-align: center;
         }
         #faaPremie{
@@ -40,8 +39,9 @@
             color: rgb(139, 155, 155);
             background-color: white;
         }
-        video{
+        #spillVideo{
             width: 996px;
+            padding-top: 20px;
         }
     </style>
 </head>
@@ -63,11 +63,13 @@
         faaPremie.onclick = () => {
             innhold.innerHTML = `
             <div class="knappFlex">
-                <video id="spillVideo" src="https://tenor.com/sdSO.gif"></video>
-                <a href="index.html" class="styleMe" id="Hjemmeside">Jeg har fått nok, ta meg tilbake til hovedsiden.</a>
+                <img id="spillVideo" src="./bilder/minions-squished.gif"></img>
+            </div>
+            <div class="knappFlex">
+                <a href="index.html" class="styleMe" id="Hjemmeside">Jeg har fått nok, ta meg tilbake til hovedsiden!</a>
             </div>
             `;
-            spillVideo.play();
+            //spillVideo.play();
         }
     </script>
 </body>
