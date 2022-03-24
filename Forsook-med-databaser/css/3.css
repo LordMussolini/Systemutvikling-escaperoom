@@ -1,0 +1,60 @@
+#o4introGrid{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    width: 80%;
+    margin: auto;
+}
+#o4introGrid img{
+    height: 300px;
+}
+#o4introGrid p{
+    padding-left: 10px;
+    padding-right: 20px;
+    font-size: 1.3rem;
+}
+
+#bokstavene{
+    width: 80%;
+    margin: auto;
+}
+#bokstavene ol{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-size: 1.5rem;
+}
+#o4strek{
+    height: 2px;
+    background-color: black;
+    margin-top: 50px;
+}
+
+
+
+#kryssordMargin{
+    background-color: bisque;
+    padding-top: 90px;
+    padding-bottom: 20px;
+}
+#kryssord{
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    width: 800px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+#kryssord div{
+    width: 40px;
+    height: 40px;
+    margin: 0;
+    margin-top: 8px;
+}
+
+#kryssord input{
+    width: 100%;
+    height: 100%;
+    margin: 1px;
+    font-size: 1.4rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(139, 155, 155);
+}

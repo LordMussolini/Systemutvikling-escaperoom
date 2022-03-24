@@ -1,0 +1,74 @@
+#o1introGrid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 80%;
+    margin: auto;
+}
+#o1introGrid img{
+    height: 500px;
+}
+#o1introGrid p{
+    padding-left: 10px;
+    padding-right: 20px;
+    font-size: 1.5rem;
+}
+#bokstavene{
+    width: 80%;
+    margin: auto;
+}
+#o1bilde{
+    margin: auto;
+    display: block;
+    margin-bottom: 50px;
+}
+
+
+
+
+.o1Bokstav{
+    width: 30px;
+    height: 40px;
+    border-radius: 0;
+    border: solid 1px black;
+    margin: 10px;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+.o1Tall p{
+  text-align: center;  
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.o1Celle{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.o1Celle div{
+    border: grey 1px solid;
+}
+#o1IndreRamme1{
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    border: grey 2px solid;
+
+}
+#o1IndreRamme2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border: grey 2px solid;
+
+}
+#o1IndreRamme3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border: grey 2px solid;
+
+}
+#o1TallOgBokstavRamme{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}

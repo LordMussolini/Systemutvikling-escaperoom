@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+header{
+    height: 15vh;
+    text-align: center;
+}
+.strek{
+    height: 2px;
+    background-color: black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.DivMedSvar{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 20px;
+    height: 100px;
+    margin-bottom: 40px;
+}
+.DivMedSvar button{
+    background-color: transparent;
+    color: black;
+    border: solid 1px rgb(139, 155, 155);
+    font-family: 'Raleway', sans-serif;
+}
+.DivMedSvar button:hover{
+    background-color: rgb(139, 155, 155);
+    color: white;
+}
+.DivMedSvar input{
+    background-color: transparent;
+    color: black;
+    border: solid 1px rgb(139, 155, 155);
+    font-family: 'Raleway', sans-serif;
+}
+#flexNed{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#videreDiv{
+    padding: 5px;
+    border-radius: 5px;
+}
+#videreDiv a{
+    color: white;
+}
